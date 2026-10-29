@@ -1,0 +1,15 @@
+# Single place to tune the system (placeholders, adjust after training)
+paths:
+  data_dir: data
+  weights_dir: Backend-Core/weights
+  registry_dir: Backend-Core/registry_data
+verification:
+  metric: cosine
+  threshold: 0.5          # accept as same person if similarity >= threshold
+  duplicate_threshold: 0.6 # registration: reject as USER ALREADY EXISTS
+liveness:
+  threshold: 0.5
+emotion:
+  classes: [angry, disgust, fear, happy, neutral, sad, surprise]
+registration:
+  num_frames: 5            # average embeddings over several frames
