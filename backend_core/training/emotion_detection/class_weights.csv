@@ -1,0 +1,8 @@
+emotion,weight,label
+angry,1.028,0
+disgusted,9.411,1
+fearful,1.001,2
+happy,0.569,3
+neutral,0.826,4
+sad,0.847,5
+surprised,1.294,6
