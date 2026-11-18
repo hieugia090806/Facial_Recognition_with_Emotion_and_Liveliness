@@ -2,6 +2,10 @@
 
 The user interface of the system: capture a photo, show the result, and register new members. It contains no model logic; it only calls the public functions of `Backend-Core/core/pipeline.py`.
 
+## Browser demo
+
+[Face Recognition Lab](web/README.md) is a React presentation demo with four simulated analysis scenarios and local webcam and upload previews.
+
 ## What this part does
 
 - Takes a photo from the webcam (or an uploaded image) and sends it to the backend.
