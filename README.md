@@ -96,6 +96,10 @@ Facial_Recognition_with_Emotion_and_Liveliness/
 
 ## Getting Started
 
+### Browser demo
+
+See the [Face Recognition Lab setup guide](frontend_gui/web/README.md) to run the presentation demo in a browser. It includes four simulated analysis scenarios and local webcam and upload previews.
+
 ### Prerequisites
 
 - Python 3.10 or later
